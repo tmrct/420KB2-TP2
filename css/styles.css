@@ -61,4 +61,6 @@ div1 {
 .content img {
     width: 100%;
 }
-
+.photoAuteur{
+    border-radius: 50px;
+}
