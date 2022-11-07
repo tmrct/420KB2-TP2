@@ -1,0 +1,55 @@
+div {
+    
+    border: solid 1px white;
+}
+
+.mainContainer {
+    max-width: 1000px ;
+    min-width: 500px;
+    margin: auto;
+    padding-top: 15px;
+    background-color: black;
+}
+
+.headerLayout img {
+    width: 90px;
+}
+
+.menuLayout{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+.menuLayout a {
+    min-width: 80px;
+    font-size: 0.8em;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.592);
+    border-radius: 6px;
+    padding: 4px 20px 4px 20px;
+    /* top right bottom left*/
+}
+
+.menuLayout a:hover {
+    color: white;
+    background-color: gray;
+}
+
+.content {
+    padding: 20px;
+    font-family: "Mochiy Pop One";
+}
+
+/*a{
+    min-width: 80px;
+    font-size: em;
+    font-family:'Roboto', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.719);
+    border-radius: 6px;
+    padding: 4px 20px 4px 20px;
+   
+}*/
