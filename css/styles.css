@@ -2,6 +2,10 @@ div1 {
     
     border: solid 1px white;
 }
+body
+{
+background-color: black;
+}
 
 .mainContainer {
     max-width: 1000px ;
@@ -13,6 +17,7 @@ div1 {
 
 .headerLayout img {
     width: 90px;
+    display: inline;
 }
 
 .menuLayout{
